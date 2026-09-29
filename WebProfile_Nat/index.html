@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Natasya Serly - Website Profile</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Ambient Background -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+    <div class="ambient-glow glow-3"></div>
+
+
+    <!-- ================= SPLASH SCREEN ================= -->
+    <div id="splash-screen">
+
+        <div class="splash-avatar-container">
+            <div class="splash-avatar-ring">
+                <img src="images/images.jpeg"
+                     alt="Natasya Serly"
+                     class="splash-avatar">
+            </div>
+        </div>
+
+        <h1 class="splash-title">Natasya Serly</h1>
+
+        <p class="splash-subtitle">
+            Halo, selamat datang di web profile saya. Di sini, Anda bisa
+            mengenal saya lebih dekat, mulai dari profil, minat, pengalaman,
+            sampai hal-hal yang saya sukai.
+            <br><br>
+            Untuk melihat lebih banyak tentang saya, silakan klik tombol
+            di bawah ini dan jelajahi website saya.
+        </p>
+
+        <button class="btn-enter" onclick="enterWebsite()">
+            <span>Buka Profil Web</span>
+            <i class="fa-solid fa-arrow-right"></i>
+        </button>
+
+    </div>
+
+
+    <!-- ================= NAVBAR ================= -->
+    <nav class="navbar">
+
+        <a href="javascript:void(0)"
+           onclick="resetToSplash()"
+           class="nav-item"
+           title="Kembali ke Awalan">
+            <i class="fa-solid fa-house"></i>
+        </a>
+
+        <a href="#deskripsi"
+           class="nav-item"
+           title="Tentang Saya">
+            <i class="fa-solid fa-user"></i>
+        </a>
+
+        <a href="#biodata"
+           class="nav-item"
+           title="Biodata">
+            <i class="fa-solid fa-address-card"></i>
+        </a>
+
+        <a href="#pendidikan"
+           class="nav-item"
+           title="Pendidikan & Organisasi">
+            <i class="fa-solid fa-graduation-cap"></i>
+        </a>
+
+        <a href="#kompetensi"
+           class="nav-item"
+           title="Keahlian & Kelebihan">
+            <i class="fa-solid fa-star"></i>
+        </a>
+
+        <a href="#portofolio"
+           class="nav-item"
+           title="Portofolio">
+            <i class="fa-solid fa-trophy"></i>
+        </a>
+
+        <a href="#galeri"
+           class="nav-item"
+           title="Galeri Foto">
+            <i class="fa-solid fa-image"></i>
+        </a>
+
+    </nav>
+
+
+    <!-- ================= MAIN CONTAINER ================= -->
+    <div class="container">
+
+
+        <!-- ================= DESKRIPSI ================= -->
+        <section class="hero" id="deskripsi">
+
+            <div class="hero-text" data-aos="fade-right">
+
+                <span class="hero-badge">
+                    Profil & Portofolio
+                </span>
+
+                <h1 class="hero-title">
+                    Halo, Saya
+                    <br>
+                    <span class="gradient-text">
+                        Natasya Serly
+                    </span>
+                </h1>
+
+                <p class="hero-desc">
+                    Saya termasuk orang yang lebih banyak diam ketika berada
+                    di lingkungan baru, tetapi bisa cukup ramai kalau sudah
+                    merasa dekat. Saya suka menghabiskan waktu bersama teman,
+                    menonton, dan mendengarkan musik. Selain itu, saya juga
+                    tertarik dengan dunia desain, teknologi, dan fotografi.
+                    Saya lebih suka menjalani dan menunjukkan diri saya
+                    apa adanya.
+                </p>
+
+                <a href="#biodata"
+                   class="btn-enter btn-small">
+
+                    <span>
+                        Lihat Biodata Lengkap
+                    </span>
+
+                    <i class="fa-solid fa-arrow-down"></i>
+
+                </a>
+
+            </div>
+
+
+            <div class="hero-img-box" data-aos="fade-left">
+
+                <img src="images/natasya.jpeg"
+                     alt="Natasya Serly">
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= BIODATA ================= -->
+        <section id="biodata">
+
+            <div class="section-title" data-aos="fade-up">
+
+                <h2>
+                    1. Biodata Diri
+                </h2>
+
+                <p>
+                    Informasi dasar mengenai identitas saya
+                </p>
+
+            </div>
+
+
+            <div class="glass-card card-center"
+                 data-aos="fade-up">
+
+                <ul class="biodata-list">
+
+                    <li class="biodata-item">
+
+                        <span class="bio-label">
+                            <i class="fa-solid fa-signature bio-icon icon-light"></i>
+                            Nama Lengkap
+                        </span>
+
+                        <span class="bio-value">
+                            Natasya Serly Hasya Ramadhani
+                        </span>
+
+                    </li>
+
+
+                    <li class="biodata-item">
+
+                        <span class="bio-label">
+                            <i class="fa-solid fa-cake-candles bio-icon icon-blue"></i>
+                            Tempat, Tanggal Lahir
+                        </span>
+
+                        <span class="bio-value">
+                            Kendal, 25 Agustus 2010
+                        </span>
+
+                    </li>
+
+
+                    <li class="biodata-item">
+
+                        <span class="bio-label">
+                            <i class="fa-solid fa-location-dot bio-icon icon-dark"></i>
+                            Domisili
+                        </span>
+
+                        <span class="bio-value">
+                            Ds. Pagerwojo, Kec. Limbangan,
+                            Kab. Kendal, Jawa Tengah
+                        </span>
+
+                    </li>
+
+
+                    <li class="biodata-item">
+
+                        <span class="bio-label">
+                            <i class="fa-solid fa-envelope bio-icon icon-light"></i>
+                            Email
+                        </span>
+
+                        <span class="bio-value">
+                            natacyasserli@gmail.com
+                        </span>
+
+                    </li>
+
+
+                    <li class="biodata-item">
+
+                        <span class="bio-label">
+                            <i class="fa-solid fa-heart bio-icon icon-blue"></i>
+                            Minat & Hobi
+                        </span>
+
+                        <span class="bio-value">
+                            Teknologi & Bermain Badminton
+                        </span>
+
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PENDIDIKAN ================= -->
+        <section id="pendidikan">
+
+            <div class="section-title" data-aos="fade-up">
+
+                <h2>
+                    2. Pendidikan & Organisasi
+                </h2>
+
+                <p>
+                    Informasi mengenai riwayat pendidikan dan organisasi saya
+                </p>
+
+            </div>
+
+
+            <div class="grid-2">
+
+
+                <!-- RIWAYAT PENDIDIKAN -->
+                <div class="glass-card"
+                     data-aos="fade-right">
+
+                    <h3 class="card-heading">
+
+                        <i class="fa-solid fa-graduation-cap icon-light"></i>
+
+                        Riwayat Pendidikan
+
+                    </h3>
+
+
+                    <div class="timeline">
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-dot"></div>
+
+                            <div class="timeline-date">
+                                2016 - 2017
+                            </div>
+
+                            <div class="timeline-title">
+                                SDN 1 KEBONAGUNG
+                            </div>
+
+                            <div class="timeline-desc">
+                                Dari SDN 1 Kebonagung saya berpindah
+                                Sekolah Dasar ke SDN 1 Pagerwojo.
+                            </div>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-dot"></div>
+
+                            <div class="timeline-date">
+                                2017 - 2022
+                            </div>
+
+                            <div class="timeline-title">
+                                SDN 1 PAGERWOJO
+                            </div>
+
+                            <div class="timeline-desc">
+                                Di SDN 1 Pagerwojo saya menetap
+                                sampai saya lulus.
+                            </div>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-dot"></div>
+
+                            <div class="timeline-date">
+                                2022 - 2025
+                            </div>
+
+                            <div class="timeline-title">
+                                SMPN 3 BOJA
+                            </div>
+
+                            <div class="timeline-desc">
+                                Di sini saya menjadi siswa yang cukup
+                                aktif di bidang akademik.
+                            </div>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-dot"></div>
+
+                            <div class="timeline-date">
+                                2025 - Sekarang
+                            </div>
+
+                            <div class="timeline-title">
+                                SMKN 3 KENDAL
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+
+                <!-- RIWAYAT ORGANISASI -->
+                <div class="glass-card"
+                     data-aos="fade-left">
+
+                    <h3 class="card-heading">
+
+                        <i class="fa-solid fa-users icon-blue"></i>
+
+                        Riwayat Organisasi
+
+                    </h3>
+
+
+                    <div class="timeline">
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-dot dot-alt"></div>
+
+                            <div class="timeline-date date-alt">
+                                2022 - 2025
+                            </div>
+
+                            <div class="timeline-title">
+                                Anggota Pramuka / Ekstrakurikuler
+                            </div>
+
+                        </div>
+
+
+                        <div class="timeline-item">
+
+                            <div class="timeline-dot dot-alt"></div>
+
+                            <div class="timeline-date date-alt">
+                                2022 - 2024
+                            </div>
+
+                            <div class="timeline-title">
+                                Anggota PMR / Ekstrakurikuler
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= KOMPETENSI ================= -->
+        <section id="kompetensi">
+
+            <div class="section-title"
+                 data-aos="fade-up">
+
+                <h2>
+                    3. Kelebihan & Kompetensi
+                </h2>
+
+                <p>
+                    Kombinasi karakter positif serta keterampilan
+                    yang saya miliki
+                </p>
+
+            </div>
+
+
+            <div class="grid-2">
+
+
+                <!-- KELEBIHAN -->
+                <div class="glass-card"
+                     data-aos="fade-up">
+
+                    <h3 class="sub-heading text-light">
+
+                        <i class="fa-solid fa-shield-halved bio-icon"></i>
+
+                        Kelebihan Diri
+
+                    </h3>
+
+
+                    <div class="badge-container">
+
+                        <span class="skill-badge">
+                            <i class="fa-solid fa-check"></i>
+                            Komunikatif & Empatis
+                        </span>
+
+                        <span class="skill-badge">
+                            <i class="fa-solid fa-check"></i>
+                            Cepat Beradaptasi
+                        </span>
+
+                        <span class="skill-badge">
+                            <i class="fa-solid fa-check"></i>
+                            Berpikir Kritis
+                        </span>
+
+                        <span class="skill-badge">
+                            <i class="fa-solid fa-check"></i>
+                            Manajemen Waktu
+                        </span>
+
+                        <span class="skill-badge">
+                            <i class="fa-solid fa-check"></i>
+                            Mampu Bekerja Sama Tim
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <!-- KOMPETENSI -->
+                <div class="glass-card"
+                     data-aos="fade-up">
+
+                    <h3 class="sub-heading text-blue">
+
+                        <i class="fa-solid fa-laptop-code bio-icon"></i>
+
+                        Kompetensi yang Dimiliki
+
+                    </h3>
+
+
+                    <div class="badge-container">
+
+                        <span class="skill-badge">
+                            <i class="fa-solid fa-code"></i>
+                            Dasar Pemrograman Web
+                        </span>
+
+                        <span class="skill-badge">
+                            <i class="fa-solid fa-wand-magic-sparkles"></i>
+                            Desain Grafis
+                        </span>
+
+                        <span class="skill-badge">
+                            <i class="fa-solid fa-pen-nib"></i>
+                            Editing Foto & Video
+                        </span>
+
+                        <span class="skill-badge">
+                            <i class="fa-solid fa-camera"></i>
+                            Fotografi Dasar
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= PORTOFOLIO ================= -->
+        <section id="portofolio">
+
+            <div class="section-title"
+                 data-aos="fade-up">
+
+                <h2>
+                    4. Portofolio Karya
+                </h2>
+
+                <p>
+                    Beberapa karya yang pernah saya buat
+                </p>
+
+            </div>
+
+
+            <div class="glass-card"
+                 data-aos="fade-up">
+
+                <h3 class="sub-heading text-blue">
+
+                    <i class="fa-solid fa-folder-open bio-icon"></i>
+
+                    Portofolio Karya
+
+                </h3>
+
+
+                <div class="item-block">
+
+                    <h4 class="item-title">
+                        Website Profil Interaktif
+                    </h4>
+
+                    <p class="item-desc">
+                        Perancangan web pribadi modern dengan
+                        animasi transisi dan landing page.
+                    </p>
+
+                </div>
+
+
+                <div class="item-block">
+
+                    <h4 class="item-title">
+                        Karya Desain
+                    </h4>
+
+                    <p class="item-desc">
+                        Desain poster, desain konten,
+                        dan editing video.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= GALERI FOTO ================= -->
+<section id="galeri">
+
+    <div class="section-title" data-aos="fade-up">
+        <h2>Galeri Foto</h2>
+        <p>Beberapa foto dan momen yang saya suka.</p>
+    </div>
+
+    <div style="
+        width: 100%;
+        max-width: 1000px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    ">
+
+        <!-- FOTO 1 -->
+        <div data-aos="zoom-in" style="
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+            border-radius: 18px;
+            border: 3px solid white;
+            box-shadow: 0 10px 30px rgba(124,185,232,0.15);
+        ">
+            <img src="images/natasya2.jpeg"
+                 alt="Foto 1"
+                 style="
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                 ">
+        </div>
+
+
+        <!-- FOTO 2 -->
+        <div data-aos="zoom-in" style="
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+            border-radius: 18px;
+            border: 3px solid white;
+            box-shadow: 0 10px 30px rgba(124,185,232,0.15);
+        ">
+            <img src="images/natasya3.jpeg"
+                 alt="Foto 2"
+                 style="
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                 ">
+        </div>
+
+
+        <!-- FOTO 3 -->
+        <div data-aos="zoom-in" style="
+            width: 100%;
+            height: 220px;
+            overflow: hidden;
+            border-radius: 18px;
+            border: 3px solid white;
+            box-shadow: 0 10px 30px rgba(124,185,232,0.15);
+        ">
+            <img src="images/nattt.jpeg"
+                 alt="Foto 3"
+                 style="
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                    display: block;
+                 ">
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+
+        <p>
+            &copy; 2026 Natasya Serly
+        </p>
+
+    </footer>
+
+
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+
+    <script>
+
+        AOS.init({
+            duration: 800,
+            once: true
+        });
+
+
+        function enterWebsite() {
+
+            const splash =
+                document.getElementById('splash-screen');
+
+            splash.classList.add('hide');
+
+            setTimeout(() => {
+
+                AOS.refresh();
+
+            }, 400);
+
+        }
+
+
+        function resetToSplash() {
+
+            const splash =
+                document.getElementById('splash-screen');
+
+            splash.classList.remove('hide');
+
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+
+        }
+
+    </script>
+
+</body>
+</html>

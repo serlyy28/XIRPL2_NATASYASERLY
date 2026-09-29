@@ -2,7 +2,17 @@
 <html>
 <head>
     <title>CSS</title>
+<<<<<<< HEAD
     <link rel="stylesheet" type="text/css" href="efek.css">
+=======
+    <style type="text/css">
+        body {
+            color: white;
+            background: green;
+            font-family: arial;
+        }
+    </style>
+>>>>>>> db6f5893b996c01a65a1a0b7de37dc5dfd107e90
 </head>
 <body>
     <h1>SMK N 3 KENDAL</h1>
